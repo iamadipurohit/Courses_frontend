@@ -1,0 +1,67 @@
+.add-instance-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  
+  .add-instance-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .submit-button,
+  .refresh-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button {
+    background-color: #28a745;
+  }
+  
+  .submit-button:hover {
+    background-color: #218838;
+  }
+  
+  .refresh-button {
+    background-color: #007bff;
+  }
+  
+  .refresh-button:hover {
+    background-color: #0056b3;
+  }
+  
